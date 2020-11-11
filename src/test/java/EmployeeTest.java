@@ -12,7 +12,7 @@ class EmployeeTest {
 
 	@Test
 	void testEmployeeInt() {
-		Employee e = new Employee(15);
+		Employee e = new Employee(14);
 		assertEquals(15, e.getNumber());
 	}
 
